@@ -1,0 +1,21 @@
+input{
+  width : 30px;
+}
+main{
+  color: #fff;
+  background: #666;
+  padding: 50px
+}
+main.orderForm{
+  display: flex;
+  flex-direction: column;
+}
+main.orderForm input{
+  width : 150px;
+}
+button{
+  width: 100px;
+}
+hr{
+  width: 100%;
+}
