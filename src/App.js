@@ -5,6 +5,7 @@ import ResultScreen from './ResultScreen.js'
 
 function App(){
 	//route
+
 	let [ activePage , setActivePage ] = useState('card');
 	let changePage = (page) => setActivePage(page);
 
@@ -13,6 +14,7 @@ function App(){
 			{activePage == 'card' && <Card  changePage = {changePage}/>}
 			{activePage == 'orderForm' && <OrderForm  changePage = {changePage}/>}
 			{activePage == 'result' && <ResultScreen />}
+			
 		</>
 	)
 }

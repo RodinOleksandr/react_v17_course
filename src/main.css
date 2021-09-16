@@ -11,7 +11,7 @@ main.orderForm{
   flex-direction: column;
 }
 main.orderForm input{
-  width : 150px;
+  width : 100px;
 }
 button{
   width: 100px;
